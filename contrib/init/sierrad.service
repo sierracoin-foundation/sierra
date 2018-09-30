@@ -1,0 +1,26 @@
+[Unit]
+Description=Sierra's distributed currency daemon
+After=network.target
+
+[Service]
+User=sierra
+Group=sierra
+
+Type=forking
+PIDFile=/var/lib/sierrad/sierrad.pid
+
+ExecStart=/usr/bin/sierrad -daemon -pid=/var/lib/sierrad/sierrad.pid \
+          -conf=/etc/sierra/sierra.conf -datadir=/var/lib/sierrad
+
+ExecStop=-/usr/bin/sierra-cli -conf=/etc/sierra/sierra.conf \
+         -datadir=/var/lib/sierrad stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

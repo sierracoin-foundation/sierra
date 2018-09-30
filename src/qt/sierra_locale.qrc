@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/sierra_bg.qm</file>
+        <file alias="de">locale/sierra_de.qm</file>
+        <file alias="en">locale/sierra_en.qm</file>
+        <file alias="es">locale/sierra_es.qm</file>
+        <file alias="fi">locale/sierra_fi.qm</file>
+        <file alias="fr">locale/sierra_fr.qm</file>
+        <file alias="it">locale/sierra_it.qm</file>
+        <file alias="ja">locale/sierra_ja.qm</file>
+        <file alias="pl">locale/sierra_pl.qm</file>
+        <file alias="pt">locale/sierra_pt.qm</file>
+        <file alias="ru">locale/sierra_ru.qm</file>
+        <file alias="sk">locale/sierra_sk.qm</file>
+        <file alias="sv">locale/sierra_sv.qm</file>
+        <file alias="vi">locale/sierra_vi.qm</file>
+        <file alias="zh_CN">locale/sierra_zh_CN.qm</file>
+        <file alias="zh_TW">locale/sierra_zh_TW.qm</file>
+    </qresource>
+</RCC>

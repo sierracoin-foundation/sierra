@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sierra
+Comment=Sierra P2P Cryptocurrency
+Comment[fr]=Sierra, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Sierra, eşten eşe kriptografik sanal para birimi
+Exec=sierra-qt %u
+Terminal=false
+Type=Application
+Icon=sierra128
+MimeType=x-scheme-handler/sierra;
+Categories=Office;Finance;
