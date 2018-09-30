@@ -8,23 +8,6 @@ For further development, 500,000 Sierracoin has been allocated and raised funds 
 Foundation Sierracoin was founded to create impossible at first glance things, and we are not going to stop in their development not for a minute. As the project progresses, the technical aspects of the deployment of test production algorithms will be presented, information on the generation of blocks using an algorithm will be disclosed, and a technical and public whitepaper will be written.
 More information: https://sierracoin.net/
 
-SIERRACOIN INFO
-Name: [Sierracoin]
-Symbol: [SIERRA]
-Masternode collateral: [1000] SIERRA
-Block reward: [25] SIERRA
-Block time: [120] second
-Block split: [80%] MN / [20%] PoS
-
-Block 1 - 1000 reward: [1] SIERRA (PoW)
-Block 1001 - 50000: reward [25] SIERRA
-Block 50001 - 100000: reward [20] SIERRA
-Block 100001 - 150000: reward [15] SIERRA
-Block 150001 - 200000: reward: [10] SIERRA
-Block 200001 - end: reward [5] SIERRA (+ SPOW)
-
-Max. Supply: [25.000.000] SIERRA
-
 Twitter: https://twitter.com/sierra_coin
 Discord: https://discord.gg/TmF4nuC
 Telegram Chat: https://t.me/sierracoin
