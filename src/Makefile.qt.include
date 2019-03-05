@@ -176,7 +176,9 @@ BITCOIN_QT_H = \
 
 RES_ICONS = \
   qt/res/icons/add.png \
+  qt/res/icons/address-book_menu.png \
   qt/res/icons/address-book.png \
+  qt/res/icons/bitcoin.icns \
   qt/res/icons/bitcoin.ico \
   qt/res/icons/bitcoin.png \
   qt/res/icons/bitcoin_testnet.ico \
@@ -193,10 +195,17 @@ RES_ICONS = \
   qt/res/icons/connect2_16.png \
   qt/res/icons/connect3_16.png \
   qt/res/icons/connect4_16.png \
+  qt/res/icons/connect0_18.png \
+  qt/res/icons/connect1_18.png \
+  qt/res/icons/connect2_18.png \
+  qt/res/icons/connect3_18.png \
+  qt/res/icons/connect4_18.png \
   qt/res/icons/debugwindow.png \
   qt/res/icons/edit.png \
   qt/res/icons/editcopy.png \
   qt/res/icons/editpaste.png \
+  qt/res/icons/editpaste_menu.png \
+  qt/res/icons/encryptwallet_menu.png \
   qt/res/icons/explorer.png \
   qt/res/icons/export.png \
   qt/res/icons/eye.png \
@@ -204,17 +213,23 @@ RES_ICONS = \
   qt/res/icons/eye_plus.png \
   qt/res/icons/filesave.png \
   qt/res/icons/history.png \
+  qt/res/icons/info_menu.png \
   qt/res/icons/key.png \
+  qt/res/icons/label_xmx.png \
   qt/res/icons/lock_closed.png \
   qt/res/icons/lock_open.png \
+  qt/res/icons/lock_tab.png \
   qt/res/icons/masternodes.png \
+  qt/res/icons/network-peers_menu.png \
   qt/res/icons/coinmix.png \
   qt/res/icons/overview.png \
   qt/res/icons/qrcode.png \
   qt/res/icons/quit.png \
+  qt/res/icons/receive_button.png \
   qt/res/icons/receive.png \
   qt/res/icons/remove.png \
   qt/res/icons/send.png \
+  qt/res/icons/send_button.png \
   qt/res/icons/staking_active.png \
   qt/res/icons/staking_inactive.png \
   qt/res/icons/synced.png \
@@ -225,7 +240,9 @@ RES_ICONS = \
   qt/res/icons/tx_inout.png \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
-  qt/res/icons/tx_mined.png
+  qt/res/icons/tx_mined.png \
+  qt/res/icons/unlock_tab.png \
+  qt/res/icons/verify_menu.png
 
 BITCOIN_QT_CPP = \
   qt/bitcoinaddressvalidator.cpp \
@@ -291,9 +308,11 @@ endif
 
 RES_IMAGES = \
   qt/res/images/about.png \
+  qt/res/images/background.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
   qt/res/images/sierra_logo_horizontal.png \
+  qt/res/images/sierralogo_name.png \
   qt/res/images/downArrow.png \
   qt/res/images/downArrow_small.png \
   qt/res/images/upArrow_small.png \
