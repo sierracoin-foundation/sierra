@@ -1,11 +1,11 @@
 ---
-name: "sierra-osx-2.3"
+name: "sierra-osx-2.0.2"
 enable_cache: true
 suites:
 - "trusty"
 architectures:
 - "amd64"
-packages: 
+packages:
 - "ca-certificates"
 - "curl"
 - "g++"
@@ -27,15 +27,17 @@ packages:
 - "python-dev"
 - "python-setuptools"
 - "fonts-tuffy"
+reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/sierracoin/sierra-core"
-  "dir": "sierra-core"
+- "url": "https://github.com/sierracoin-foundation/sierra.git"
+  "dir": "sierra"
 files:
 - "MacOSX10.11.sdk.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   HOSTS="x86_64-apple-darwin11"
   CONFIGFLAGS="--enable-reduce-exports --disable-bench --disable-gui-tests GENISOIMAGE=$WRAP_DIR/genisoimage"
+  CONFIGFLAGS+=" --disable-tests"
   FAKETIME_HOST_PROGS=""
   FAKETIME_PROGS="ar ranlib date dmg genisoimage"
 
@@ -83,7 +85,7 @@ script: |
   create_per-host_faketime_wrappers "2000-01-01 12:00:00"
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd sierra-core
+  cd sierra
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
