@@ -137,11 +137,11 @@ public:
         assert(hashGenesisBlock == uint256("0x00000490e35cda9b52316cf10f26967c1f83add26bfb413359371c93fb3bc8ae"));
         assert(genesis.hashMerkleRoot == uint256("0x8e69370d573d44f0b2079f2c5bf8b05d343c4b868145dfffbeb641c6d0710bb7"));
 
-        vSeeds.push_back(CDNSSeedData("35.192.43.4", "35.192.43.4"));
-		vSeeds.push_back(CDNSSeedData("35.232.185.35", "35.232.185.35"));
-		vSeeds.push_back(CDNSSeedData("185.87.194.125", "185.87.194.125"));
-		vSeeds.push_back(CDNSSeedData("35.227.50.190", "35.227.50.190"));
-		vSeeds.push_back(CDNSSeedData("185.22.232.55", "185.22.232.55"));
+        vSeeds.push_back(CDNSSeedData("sierracoin.net", "seed1.sierracoin.net"));
+        vSeeds.push_back(CDNSSeedData("sierracoin.net", "seed2.sierracoin.net"));
+        vSeeds.push_back(CDNSSeedData("sierracoin.net", "seed3.sierracoin.net"));
+        vSeeds.push_back(CDNSSeedData("sierracoin.net", "seed4.sierracoin.net"));
+        vSeeds.push_back(CDNSSeedData("sierracoin.net", "seed5.sierracoin.net"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 16);
@@ -220,8 +220,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-		
-        vSeeds.push_back(CDNSSeedData("testnet.sierracoin.si", "testnet.sierracoin.si"));
+
+        vSeeds.push_back(CDNSSeedData("testnet.sierracoin.net", "testnet-seed1.sierracoin.net"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 18);
