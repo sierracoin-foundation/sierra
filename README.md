@@ -1,13 +1,51 @@
-# Sierracoin
-Sierracoin is the first foundation to develop mining using solar energy. 
-You can pay for mining other crypto currency using electricity and at the same time convert the amount of energy spent into Sierra. Now the cost of bitcoin and other crypto-currencies using the PoW algorithm is determined by the price of electricity spent for extraction of one unit + an added market value. We are going to include our own mining algorithm within the next 1 year, at 200,000 block a hardfork network will be run with the inclusion of solar mining. The first customers will be able to rent solar batteries from our company, you can receive crypto currency at your wallet, we will also develop a personal web wallet, with the possibility of PoS mining and the accumulation of sierracoin.
+#SIΞRRACOIN is a blockchain based cryptocurrency that was designed to accelerate the use and creation of solar energy. Like other cryptocurrencies such as Bitcoin, the SIΞRRA network is truly global and decentralized. SIΞRRA payments are associated with a significant, cost-effective and environmentally friendly incentive: the production of solar energy.
 
-Why do not we turn on PoW now? - it will not be included at all. Instead, its own solar energy algorithm will be included. We are going to act as a bridge between electricity and leading crypto-currencies in order to be necessary, we consider it inappropriate to include PoW and allow people to obtain crypto-currency and accumulate using solar energy and PoS mining. It is also planned to introduce masternode into solar panels, now your solar battery can act as a node of the network with a dedicated IP address. 
 
-For further development 500.000 Sierracoin has been allocated and raised funds from investors to support the development of the algorithm 
-Foundation Sierracoin was founded to create impossible at first glance things, and we are not going to stop in their development not for a minute. As the project progresses, the technical aspects of the deployment of test production algorithms will be presented, information on the generation of blocks using an algorithm will be disclosed, and a technical and public whitepaper will be written.
-More information: https://sierracoin.net/
+SIΞRRA is a community project initiated in 2018 by the founders of the SIΞRRA Foundation and a group of volunteers. SIERRA supports POS / MN rewards and will further incentivize solar production through SIΞRRA coins. Anyone can receive SIΞRRA by either staking coins, running a Masternode or for each kilowatt-hour (KW) of confirmed solar energy produced by your Photovoltaic (PV) system. All methods of obtaining SIΞRRA are environmentally friendly and helps to save the planet. 
+The SIERRA rewards are additional to existing incentive programs and does not depend on other preferential tariffs applicable to solar energy producers. Anyone who generates solar energy and, as a result, avoids long-term CO2 emissions, can earn SIΞRRA. A hardfork is planned in the future to introduce our SPOW enabled mining algorithm. At this stage, we are negotiating with companies that produce solar equipment and software to incorporate our algorithm into their solution. 
+The official SIΞRRA mining pool will also be launched, where you can connect your solar installations to get SIΞRRA rewards. At SIΞRRA, we want to help speed up the production of renewable energy by creating a community with a common vision and passion for this mission. As the project progresses, further information will be added to this announcement, where the main aspects of the deployment of the SPOW algorithm, maintenance and additional incentives for the operation of POS / MN and the entire SIERRA network will be disclosed.
 
-Twitter: https://twitter.com/sierra_coin
-Discord: https://discord.gg/TmF4nuC
-Telegram Chat: https://t.me/sierracoin
+OPEN SOURCE CODE 
+The SIΞRRACOIN team supports the idea of open source code for blockchain-based coins. All our developments on the SIΞRRACOIN will be available to everyone on GitHub (https://github.com/sierracoin-foundation). An open project will help promote innovation. We welcome the contributions of all who wish to improve the project. This project would not have been possible without the previous work of the Bitcoin and Dash development teams. We appreciate their efforts and the opportunity to contribute to this growing area of technology. In addition, we thank the passionate members of the SIΞRRACOIN community who developed this project and are actively involved in the evolution of SIΞRRACOIN Please note that only SIΞRRACOIN is open source. All other developments of the SIΞRRA Foundation, which includes the SPOW algorithm are proprietary information. SIΞRRACOIN is a method of modern monetization of a decentralized project and, therefore, the details of the development, mechanism of action and software are not subject to public announcement. All the necessary technical information will be made available to users after the official launch of the SIΞRRA SPOW project.
+
+More detailed information: SIΞRRACOIN Whitepaper v2.0
+Cooperation and suggestions: info@sierracoin.net
+
+Blockchain & coin speciications
+Coin name: Sierracoin
+Symbol: SIΞRRA
+Hashing Algorithm: X11 (PoS/MN)
+Max.Supply: 25.000.000
+Available Supply: https://explorer.sierracoin.net
+Block Time: 120 sec.
+Block Reward: 15 (80% MN/ 20% PoS)
+
+Block 0 - 1000: 1 SIΞRRA
+1001 - 50000: 25 SIΞRRA
+50001 - 100000: 20 SIΞRRA
+100001 - 150000: 15 SIΞRRA 
+150001 - 200000: 10 SIΞRRA (CURRENT)
+200001 - HARDFORK + INCLUDED SPOW: 5 SIΞRRA + SPOW
+
+EXCHANGES
+Graviex https://graviex.net/markets/sierrabtc 
+Crex24 (not supported US UK) https://crex24.com/exchange/SIERRA-BTC 
+
+MASTERNODES STATS
+MNO https://masternodes.online/currencies/SIERRA/
+MasternodeBuzz https://coins.masternode.buzz/SIERRA
+MNTrend https://mntrend.com/en/currencies/SIERRA
+MNrank https://mnrank.com/coin/SIERRA/
+NodeCheck https://nodecheck.io/currency/SIERRA
+
+MASTERNODE HOSTING (Verified)
+Zcore https://central.zcore.cash/mn/SIERRA
+iHostmn https://ihostmn.com/hostmn.php?coin=SIERRA
+NodeHub https://nodehub.io/dashboard/view_coin?coin=sierra
+trttNodes https://node.trittium.cc/
+
+Market capitalization by CoinGecko: https://www.coingecko.com/en/coins/sierracoin and Coinpaprika https://coinpaprika.com/coin/sierra-sierracoin/
+
+CONFIDENTIALITY 
+The SIΞRRACOIN team values the privacy of individuals and organizations. It’s extremely important that teams take the necessary precautions to limit the impact of any potential threats that could adversely affect the development of projects. The SIΞRRACOIN team is very serious about confidentiality in today’s modern world of technology to ensure that external factors not negatively influence the development of this decentralized blockchain project.
+Join the Solar Mining Revolution
