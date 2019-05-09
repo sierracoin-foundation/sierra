@@ -11,41 +11,6 @@ The SIΞRRACOIN team supports the idea of open source code for blockchain-based 
 More detailed information: SIΞRRACOIN Whitepaper v2.0
 Cooperation and suggestions: info@sierracoin.net
 
-Blockchain & coin speciications
-Coin name: Sierracoin
-Symbol: SIΞRRA
-Hashing Algorithm: X11 (PoS/MN)
-Max.Supply: 25.000.000
-Available Supply: https://explorer.sierracoin.net
-Block Time: 120 sec.
-Block Reward: 15 (80% MN/ 20% PoS)
-
-Block 0 - 1000: 1 SIΞRRA
-1001 - 50000: 25 SIΞRRA
-50001 - 100000: 20 SIΞRRA
-100001 - 150000: 15 SIΞRRA 
-150001 - 200000: 10 SIΞRRA (CURRENT)
-200001 - HARDFORK + INCLUDED SPOW: 5 SIΞRRA + SPOW
-
-EXCHANGES
-Graviex https://graviex.net/markets/sierrabtc 
-Crex24 (not supported US UK) https://crex24.com/exchange/SIERRA-BTC 
-
-MASTERNODES STATS
-MNO https://masternodes.online/currencies/SIERRA/
-MasternodeBuzz https://coins.masternode.buzz/SIERRA
-MNTrend https://mntrend.com/en/currencies/SIERRA
-MNrank https://mnrank.com/coin/SIERRA/
-NodeCheck https://nodecheck.io/currency/SIERRA
-
-MASTERNODE HOSTING (Verified)
-Zcore https://central.zcore.cash/mn/SIERRA
-iHostmn https://ihostmn.com/hostmn.php?coin=SIERRA
-NodeHub https://nodehub.io/dashboard/view_coin?coin=sierra
-trttNodes https://node.trittium.cc/
-
-Market capitalization by CoinGecko: https://www.coingecko.com/en/coins/sierracoin and Coinpaprika https://coinpaprika.com/coin/sierra-sierracoin/
-
 CONFIDENTIALITY 
 The SIΞRRACOIN team values the privacy of individuals and organizations. It’s extremely important that teams take the necessary precautions to limit the impact of any potential threats that could adversely affect the development of projects. The SIΞRRACOIN team is very serious about confidentiality in today’s modern world of technology to ensure that external factors not negatively influence the development of this decentralized blockchain project.
 Join the Solar Mining Revolution
