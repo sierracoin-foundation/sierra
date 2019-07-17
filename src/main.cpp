@@ -1665,34 +1665,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 	} else if (nHeight > 150000 && nHeight <= 200000) {
         ret = blockValue / 100 * 80;
 	} else if (nHeight > 200000) {
-		int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-
-		if(nMasternodeCount < 1) {
-			nMasternodeCount = mnodeman.stable_size();
-		}
-
-		int64_t mNodeCoins = nMasternodeCount * 10000 * COIN;
-
-		if (mNodeCoins == 0) {
-            ret = 0;
-		} else {
-			double lockedCoinValue = mNodeCoins / nMoneySupply;
-
-			double masternodeMultiplier = 1 - lockedCoinValue;
-
-			if(masternodeMultiplier < .1) {
-				masternodeMultiplier = .1;
-			} else if(masternodeMultiplier > .9) {
-				masternodeMultiplier = .9;
-			}
-
-			LogPrintf("[LIBRA] Adjusting Libra at height %d with %d masternodes (%d % locked Sierra) and %d Sierra supply at %ld\n", nHeight, nMasternodeCount, lockedCoinValue*100, nMoneySupply, GetTime());
-			LogPrintf("[LIBRA] Masternode: %d\n", masternodeMultiplier*100);
-			LogPrintf("[LIBRA] Staker: %d\n", (1 - masternodeMultiplier)*100);
-			
-			ret = blockValue * masternodeMultiplier;
-		}
-		
+        ret = blockValue / 100 * 80;
 	}
 	
 	return ret;
@@ -1707,7 +1680,7 @@ bool IsInitialBlockDownload()
     if (lockIBDState)
         return false;
     bool state = (chainActive.Height() < pindexBestHeader->nHeight - 24 * 6 ||
-                  pindexBestHeader->GetBlockTime() < GetTime() - 6 * 60 * 60); // ~144 blocks behind -> 2 x fork detection time
+                  pindexBestHeader->GetBlockTime() < GetTime() - 6 * 60 * 60 * 10 ); // ~144 blocks behind -> 2 x fork detection time
     if (!state)
         lockIBDState = true;
     return state;
