@@ -1,5 +1,5 @@
 ---
-name: "sierra-rpi2-2.0.2"
+name: "sierra-rpi2-2.1.0"
 enable_cache: true
 suites:
 - "trusty"
