@@ -49,9 +49,8 @@ void ProcessSpork(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
         LogPrintf("spork - new %s ID %d Time %d bestHeight %d\n", hash.ToString(), spork.nSporkID, spork.nValue, chainActive.Tip()->nHeight);
 
         if (!sporkManager.CheckSignature(spork)) {
-            // Temporary for key replacement
-            //LogPrintf("spork - invalid signature\n");
-            //Misbehaving(pfrom->GetId(), 100);
+            LogPrintf("spork - invalid signature\n");
+            Misbehaving(pfrom->GetId(), 100);
             return;
         }
 
